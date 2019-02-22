@@ -77,6 +77,11 @@ body {
 	max-width: 100%;
 }
 
+img:hover {
+    cursor: pointer;
+	opacity: 0.8;
+}
+
 /* When possible, organize CSS classes in alphabetical order */
 .gold {
 	background-color: #C5B358;
