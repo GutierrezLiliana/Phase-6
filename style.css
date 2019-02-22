@@ -1,0 +1,107 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	margin: 0;
+}
+
+/* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
+/* Addtionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+/* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
+.square-div {
+	height: 50%;
+	width: calc(100%/4);
+}
+
+.row-div {
+	display: block;
+	height: 100%;
+	width: calc(100%/4);
+}
+
+.block-div {
+	height: 100%;
+	width: calc(100%/4);
+}
+
+.strech{
+	height:100%;
+	width:100%;
+}
+
+.block{
+	display: row;
+	height: 75%;
+	width: 100%;
+}
+
+.block2{
+	display: row;
+	height: calc(100%/4);
+	width: 100%;
+}
+
+.box{
+	height: 25%;
+	width: 100%;
+}
+
+.row{
+	height:25%;
+	width: 100%;
+	text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/* When possible, organize CSS classes in alphabetical order */
+.gold {
+	background-color: #C5B358;
+}
+
+.purple {
+	background-color: #DA70D6;
+}
+
+.slate {
+	background-color: #2F4F4F;
+}
+
+.blue{
+	background-color: #0000FF;
+}
+
+.pink{
+	background-color:#FFC0CB;
+}
+
+.red{
+	background-color:#FF0000;
+}
+
+.green{
+	background-color: #008000;
+}
