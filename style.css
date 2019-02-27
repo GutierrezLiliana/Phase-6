@@ -3,6 +3,7 @@ body {
 	width: 100vw;
 	display: flex;
 	margin: 0;
+	padding: 0;
 }
 
 /* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
@@ -77,6 +78,16 @@ body {
 	max-width: 100%;
 }
 
+.left-img{
+	position: absolute;
+    right: 0;
+}
+
+.right-img{
+	position: absolute;
+    right: 0;
+}
+
 img:hover {
     cursor: pointer;
 	opacity: 0.8;
@@ -84,15 +95,15 @@ img:hover {
 
 /* When possible, organize CSS classes in alphabetical order */
 .gold {
-	background-color: #C5B358;
+	background-color: white;
 }
 
 .purple {
-	background-color: #DA70D6;
+	background-color: white;
 }
 
 .slate {
-	background-color: #2F4F4F;
+	background-color: white;
 }
 
 .blue{
@@ -100,7 +111,7 @@ img:hover {
 }
 
 .pink{
-	background-color:#FFC0CB;
+	background-color: white;
 }
 
 .red{
@@ -108,5 +119,5 @@ img:hover {
 }
 
 .green{
-	background-color: #008000;
+	background-color: white;
 }

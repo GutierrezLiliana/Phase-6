@@ -22,3 +22,8 @@ function playSound2() {
 	document.getElementById('Wrong Answer').play();
 	// when the JACKPOT! button is clicked, play the slot machine sound
 }
+
+function addClass(el){
+	el.classList.add("opaque");
+
+}
